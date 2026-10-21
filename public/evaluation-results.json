@@ -1,0 +1,179 @@
+{
+  "engine": "local-rule-based",
+  "aiProviderEvaluated": false,
+  "recordedAt": "2026-10-21T00:46:05.399Z",
+  "caseCount": 13,
+  "passed": 13,
+  "scope": "Synthetic fixed fixtures only; no general accuracy or production performance claim.",
+  "results": [
+    {
+      "id": "english-missing-details",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 5.464
+    },
+    {
+      "id": "arabic-booking",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 1.38
+    },
+    {
+      "id": "known-budget-and-date",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.892
+    },
+    {
+      "id": "conflicting-budget",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.288
+    },
+    {
+      "id": "conflicting-dates",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.288
+    },
+    {
+      "id": "questions-are-not-requirements",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.048
+    },
+    {
+      "id": "explicit-exclusion",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.058
+    },
+    {
+      "id": "instruction-like-source",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 1.6
+    },
+    {
+      "id": "negated-budget-is-not-agreement",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.271
+    },
+    {
+      "id": "arabic-commercial-numerals",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.447
+    },
+    {
+      "id": "repeated-requirement",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.042
+    },
+    {
+      "id": "repeated-budget-is-not-conflict",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.033
+    },
+    {
+      "id": "positive-and-negative-clause",
+      "passed": true,
+      "checks": {
+        "scopeCount": true,
+        "exclusionCount": true,
+        "budgetStatus": true,
+        "timelineStatus": true,
+        "expectedExcerpt": true,
+        "evidenceIntegrity": true
+      },
+      "latencyMs": 0.04
+    }
+  ]
+}

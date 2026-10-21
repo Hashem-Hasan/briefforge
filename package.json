@@ -1,0 +1,61 @@
+{
+  "name": "@hashem-hasan/briefforge",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Turn client conversations into evidence-linked project briefs.",
+  "license": "MIT",
+  "author": "Hashem Hasan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hashem-Hasan/briefforge.git"
+  },
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run build:lib && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "build:lib": "tsc -p tsconfig.lib.json",
+    "prepare": "npm run build",
+    "start": "node --env-file-if-exists=.env lib/bin/briefforge.js",
+    "test:ui": "node --import tsx --test tests/ui.browser.ts",
+    "eval": "node --import tsx evals/run.ts"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "lucide-react": "^0.577.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "tsx": "4.23.15",
+    "playwright": "1.64.1",
+    "prettier": "3.9.10"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/src/core.d.ts",
+      "import": "./lib/src/core.js"
+    },
+    "./provider": {
+      "types": "./lib/src/provider.d.ts",
+      "import": "./lib/src/provider.js"
+    }
+  },
+  "files": [
+    "lib",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
